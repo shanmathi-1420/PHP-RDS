@@ -9,7 +9,7 @@ WORKDIR /var/www/html
 
 # Copy the PHP script and database configuration file
 COPY html/index.php /var/www/html/
-COPY inc/dbinfo.inc /var/www/inc/
+COPY inc/dbinfo.inc.php /var/www/inc/
 
 # Set permissions (adjust as needed)
 RUN chown -R www-data:www-data /var/www/html
