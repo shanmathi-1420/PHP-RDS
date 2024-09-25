@@ -1,7 +1,7 @@
 <?php include "dbinfo.inc.php"; ?>
 <html>
 <body>
-<h1>Sample page</h1>
+<h1><center>PHP Application</center></h1>
 <?php
 
   /* Connect to MySQL and select the database. */
