@@ -13,7 +13,7 @@ COPY html/index.php /var/www/html/
 COPY inc/dbinfo.inc.php /var/www/inc/
 
 # Ensure the copied files have the right permissions
-RUN chown -R www-data:www-data /var/www/html /var/www/inc
+RUN chown -R www-data:www-data /var/www/html
 
 # Expose port 80 for the web server
 EXPOSE 80
