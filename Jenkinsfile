@@ -4,6 +4,7 @@ pipeline {
     environment {
         // Docker image URI for ECR
         DOCKER_IMAGE = '024848486869.dkr.ecr.ap-south-1.amazonaws.com/php-app-repo:latest'
+        AWS_REGION = 'ap-south-1'
         // Credential IDs for AWS and GitHub
         AWS_CREDENTIALS = 'aws-credentials-id'
         GITHUB_CREDENTIALS = 'github-credentials-id'
