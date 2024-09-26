@@ -13,7 +13,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 // Use GitHub credentials to clone repository
-                git url: 'https://github.com/shanmathi-1420/php-rds.git', credentialsId: "${GITHUB_CREDENTIALS}"
+                 git branch: 'main', url: 'https://github.com/shanmathi-1420/php-rds.git', credentialsId: 'github-credentials-id'
             }
         }
 
